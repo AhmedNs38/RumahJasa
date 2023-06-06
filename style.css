@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+navbar {
+    display: flex;
+    background-color: white;
+    /* justify-content: space-around; */
+    
+}
+
+nav ul {
+    background-color: #06283D;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-around;
+    height: 30px;
+    
+}
+nav li{
+    margin-top: 3px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: #06283D;
+}
+
+
+.menu1 {
+    width: 18px;
+    margin-left: 20px;
+}
+.menu2 {
+    width: 20px;
+    margin-left: 20px;
+}
+.menu3 {
+    width: 20px;
+    margin-left: 20px;
+}
+.searchbox {    
+    margin-left: 1em;
+    border-color: #1363DF;
+    border-radius: 10px 0 0px 10px;
+    width: 40em;
+    height: 2.5em;
+    background: none;
+    
+}
+.join {
+    margin-left: 20px;
+    color: #1363DF;
+    text-decoration: none;
+}
+.logo {
+    height: 3em;
+}
+form{
+    width: 45em;
+    height: 2.5em;
+}
+.cari {
+    position: absolute;
+    height: 2.5em;
+    width: 4em;
+    border-radius: 0 10px 10px 0px;
+    background-color: #1363DF;
+    border-color: #1363DF;
+    color: white;
+}
+.lapak {
+    width: 800px;
+	height: 550px;
+	border-radius: 10px;
+	border: #2C2D26;
+	background-color: #2C2D26;
+}
+
+
+@media screen and (max-width: 750px){
+    .searchbox {    
+        margin-left: 1em;
+        border-color: #1363DF;
+        border-radius: 10px 0 0px 10px;
+        width: 38em;
+        height: 2.5em;
+        background: none;
+    }
+    form{
+        width: 45em;
+        height: 2.5em;
+    }
+    .cari {
+            position: absolute;
+            height: 2.5em;
+            width: 4em;
+            border-radius: 0 10px 10px 0px;
+            background-color: #1363DF;
+            border-color: #1363DF;
+            color: white;
+        }    
+    .logo {
+        height: 3em;
+       }
+}
